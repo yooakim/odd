@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Octopus Demo App";
+}
+
+<div class="jumbotron">
+    <h1>@Environment.MachineName</h1>
+    <h2>@Environment.Version</h2>
+    <p class="lead">Octopus takes over where your Continuous Integration server ends, enabling you to easily automate even the most complicated application deployments, whether on-premises or in the cloud. </p>
+    <p><a href="https://octopus.com/" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Promote releases between environments</h2>
+        <p>
+            Octopus takes care of your dev, QA, acceptance testing and production deployments. Limit who can deploy to production, ensure releases have been tested first, schedule deployments for later tonight, or block promotion of broken releases.
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Repeatable & reliable deployments</h2>
+        <p>For each release, you'll build your binaries once, but deploy and promote them many times, ensuring that what goes to production is exactly what you just tested. The way we model your deployment process ensures that deployments are as consistent as possible between environments, so that when you're ready to go to production, you'll be confident that it will Just Work.</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Complex deployments made easy</h2>
+        <p>High level deployment steps for .NET, Java and other platforms, the ability to run custom scripts, management of sensitive variables, and advanced deployment patterns means Octopus can simplify even the most complicated application deployments.</p>
+    </div>
+</div>

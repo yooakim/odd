@@ -1,0 +1,42 @@
+﻿<h2>About</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th colspan="2" style="text-align:center"><em></em> Technical information</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Machine name</th>
+            <td>@Environment.MachineName</td>
+        </tr>
+        <tr>
+            <th>OS</th>
+            <td>@Environment.OSVersion</td>
+        </tr>
+        <tr>
+            <th>Runtime</th>
+            <td>@Environment.Version</td>
+        </tr>
+        <tr>
+            <th>App version</th>
+            <td>
+                @typeof(ODD.Web.MvcApplication).Assembly.GetName().Version
+            </td>
+        <tr>
+            <th>Host IP</th>
+            <td>
+                @ODD.Web.Controllers.HomeController.GetIPAddress();
+            </td>
+        </tr>
+        <tr>
+            <th>Client IP</th>
+            <td>
+                @HttpContext.Current.Request.UserHostAddress;
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+
