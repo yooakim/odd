@@ -695,7 +695,7 @@ intellisense.annotate(jQuery.Event.prototype, {
     /// <returns type="Element" />
   },
   'timeStamp': function() {
-    /// <summary>The difference in milliseconds between the time the browser created the event and January 1, 1970.</summary>
+    /// <summary>The difference in milliduration between the time the browser created the event and January 1, 1970.</summary>
     /// <returns type="Number" />
   },
   'type': function() {
@@ -1146,7 +1146,7 @@ intellisense.annotate(jQuery.fn, {
   'delay': function() {
     /// <signature>
     ///   <summary>Set a timer to delay execution of subsequent items in the queue.</summary>
-    ///   <param name="duration" type="Number">An integer indicating the number of milliseconds to delay execution of the next item in the queue.</param>
+    ///   <param name="duration" type="Number">An integer indicating the number of milliduration to delay execution of the next item in the queue.</param>
     ///   <param name="queueName" type="String">A string containing the name of the queue. Defaults to fx, the standard effects queue.</param>
     ///   <returns type="jQuery" />
     /// </signature>
