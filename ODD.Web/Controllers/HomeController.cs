@@ -24,7 +24,6 @@ namespace ODD.Web.Controllers
         {
             Stopwatch watch = new Stopwatch();
             watch.Start();
-
             await Task.Run(()=> CpuIntensiveMulti(duration));
 
             return RedirectToAction("Index");
