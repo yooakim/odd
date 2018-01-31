@@ -6,7 +6,7 @@ This solution contains projects to demonstrate how Octopus Deploy works. At the 
 
 ## ODD.Web
 
-![ODD.Web](/images/Capture.png)
+![ODD.Web](https://github.com/yooakim/odd/blob/master/images/Capture.PNG)
 
 Is a .NET Framework 4.x web application. It is a simple startpage with a method that will generate high CPU load. The intention is to be able to show the deployment pipeline 
 and to test auto-scaling scenarios. 
