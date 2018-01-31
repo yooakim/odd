@@ -108,3 +108,12 @@ textarea {
         background-color: #bdcfd9;
     }
 }
+
+.navbar .navbar-left {
+    padding-top: 5px;
+}
+
+    .navbar .navbar-left img {
+        height: 40px;
+        
+    }
